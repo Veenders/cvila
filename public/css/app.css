@@ -16,6 +16,7 @@ main {
   justify-content: stretch;
   align-items: stretch;
   font-family: Nunito, sans-serif;
+  min-height: 100vh;
 }
 
 nav {
@@ -66,5 +67,35 @@ nav .menu ul {
   list-style-type: none;
   display: flex;
   flex-direction: row;
+}
+
+nav .menu ul li {
+  padding: 0.8em;
+  border: 1px solid lightblue;
+  border-radius: 10px;
+  margin: 0.5em;
+}
+
+nav .menu ul li:hover {
+  border: 1px solid black;
+}
+
+nav .menu ul li:hover a {
+  color: black;
+}
+
+nav .menu ul a {
+  text-decoration: none;
+  color: lightblue;
+}
+
+nav .menu ul a:hover {
+  color: black;
+}
+
+footer {
+  height: 5vh;
+  margin-top: auto;
+  text-align: center;
 }
 

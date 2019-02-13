@@ -8,7 +8,7 @@ class Jumbotron extends Component {
             highlights:['Front End Developer','Laravel','React','PJ','Technology Enthusiast'],
             highlight: 'Front End Developer',
         }
-        this.timer = null
+        this.timer = null;
     }
     componentDidMount(){
         this.timer = setInterval(this.setWord,5000);
